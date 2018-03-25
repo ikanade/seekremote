@@ -22,7 +22,7 @@ html, button, input, select, textarea,
   color: #60e4e6;
 }
 
-a.custom-button, a.custom-button--inverse {
+a.button, a.button--inverse {
   margin: 10px;
   height: 40px;
   line-height: 40px;
@@ -39,17 +39,17 @@ a.custom-button, a.custom-button--inverse {
   cursor: pointer;
   border-color: transparent;
 }
-a.custom-button:hover, a.custom-button--inverse:hover {
+a.button:hover, a.button--inverse:hover {
   color: #7795f8;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
    border-color: transparent;
 }
-a.custom-button--inverse {
+a.button--inverse {
   color: #fff;
   background: #6772e5;
 }
-a.custom-button--inverse:hover {
+a.button--inverse:hover {
   color: #fff;
   background-color: #7795f8;
 }
@@ -144,9 +144,14 @@ li a {
   -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
   transition: font-size 0.3s ease, background-color 0.3s ease;
 }
-.subscribe-box{
-  margin-left: 39%;
+
+
+#mc_embed_signup_scroll{
+  margin: 0;
+  padding: 0;
+  width: auto;
 }
+
 .input.email {
   width: 25%;
   float: left;

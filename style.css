@@ -1,0 +1,161 @@
+html, body {
+
+  height: 100%;
+  margin: 0;
+}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: Roboto, Open Sans, Segoe UI, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+
+.brand-name {
+  color: #383838;
+  padding-bottom: 5%;
+}
+
+.brand-name > span{
+  //color: #4286f4;
+  color: #60e4e6;
+}
+
+a.custom-button, a.custom-button--inverse {
+  margin: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  color: #6772e5;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  transition: all .15s ease;
+  cursor: pointer;
+  border-color: transparent;
+}
+a.custom-button:hover, a.custom-button--inverse:hover {
+  color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+   border-color: transparent;
+}
+a.custom-button--inverse {
+  color: #fff;
+  background: #6772e5;
+}
+a.custom-button--inverse:hover {
+  color: #fff;
+  background-color: #7795f8;
+}
+
+.is-main {
+  color: #fff;
+  background: #6772e5;
+}
+.is-main:hover{
+  color: #fff;
+  background-color: #7795f8;
+}
+
+/* Cards */
+
+.globalCards .card-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -15px auto;
+    padding: 0 5px
+}
+
+.no-border {
+  border: none;
+}
+.no-shadow {
+  box-shadow: none;
+}
+a.globalCard,div.globalCard {
+    // -ms-flex: 1 1 100%;
+ //flex: 1 1 100%;
+ z-index: 499;
+ position: relative;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ -ms-flex-pack: center;
+ justify-content: center;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    transition-property: color,background-color,box-shadow,transform;
+    transition-duration: .15s;
+}
+
+.globalCard--inverse{
+  background-color: #35314e;
+}
+/*
+ a.globalCard:after,div.globalCard:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #aab7c4;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .15s
+} */
+
+
+
+
+/* Card lists */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+  align-content: center;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+.subscribe-box{
+  margin-left: 39%;
+}
+.input.email {
+  width: 25%;
+  float: left;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.control .button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+}
